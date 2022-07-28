@@ -1,3 +1,3 @@
 # World-Of-BBQ
 
-<img src="images/worldofbbq1.jpg">
+<img src="images/worldofbbq.jpg">
