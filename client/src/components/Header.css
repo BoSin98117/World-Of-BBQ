@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__title {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-items: center;
+}
+
+.btn__logout, .btn__home {
+    margin-left: 10px;
+}
+
+.btnHeader {
+    background: none;
+    font-size: 20px;
+    font-weight: 1000;
+    color: aliceblue;
+    cursor: pointer;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.fire {
+    display: block;
+    background: url('https://www.vmcdn.ca/f/files/halifaxtoday/images/fire/110618-fire-flames-adobestock_134229099.jpeg;w=1200;h=800;mode=crop');
+    font-size: 100px;
+    font-family: impact;
+    background-size: cover;
+    background-repeat: initial;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: fire 8s linear infinite;
+}
+
+@keyframes fire {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    0% {
+        background-position: 100% -50%;
+    }
+}
+

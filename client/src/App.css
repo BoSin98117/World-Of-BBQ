@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    background-image: url('https://253qv1sx4ey389p9wtpp9sj0-wpengine.netdna-ssl.com/wp-content/uploads/2017/05/BBQ_Smoke-700x461.jpg');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcomeUser {
+    padding-left: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+.logreg {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-image: linear-gradient(rgba(147, 79, 31, 0.61), rgba(135, 66, 66, 0.276)), url('https://www.bradleysmoker.com/wp-content/uploads/2016/07/Picture1.png');
+    background-size: cover;
+    background-position: top;
+}
+
+.reglogin__input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+label {
+    margin-right: 10px;
+    color: #000;
+    font-weight: 700;
+}
+
+.bbqposts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eachposts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(151, 151, 154);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 2);
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.eachposts img {
+    width: 100%;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.recipe {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    transform: translateY(101%);
+    transition: transform 0.3s ease-in;
+}
+
+.eachposts:hover .recipe {
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+.recipe h3 {
+    margin-top: 0;
+}
+
+.onebbqeditdelete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn__delete {
+    background-color: #f44336;
+    color: white;
+    margin-right: 10px;
+}
