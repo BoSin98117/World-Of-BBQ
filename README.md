@@ -1,3 +1,5 @@
 # World-Of-BBQ
 
-<img src="images/worldofbbq1.jpg">
+<p>A social app that allows bbq enthusiasts to post their cook-out and share recipes.</p>
+
+<img src="images/worldofbbq.jpg">
